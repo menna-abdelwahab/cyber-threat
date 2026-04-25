@@ -1,0 +1,16 @@
+timestamp,src_ip,dst_ip,alert_type,severity,description
+2024-01-01 08:00,192.168.1.10,5.5.5.5,malware,high,Malicious domain bad.com detected with hash 44d88612fea8a8f36de82e1278abb02f
+2024-01-01 08:05,10.0.0.1,45.33.32.156,c2,critical,C2 server contact detected IP 45.33.32.156 possible botnet
+2024-01-01 08:10,192.168.1.20,8.8.8.8,phishing,medium,Phishing URL http://fake-bank.com user credentials stolen
+2024-01-01 08:15,10.0.0.5,185.220.101.5,ransomware,critical,Ransomware hash 44d88612fea8a8f36de82e1278abb02f encrypting files
+2024-01-01 08:20,172.16.0.1,91.108.4.1,ddos,low,High traffic volume DDoS attack detected from 172.16.0.1
+2024-01-01 09:00,192.168.1.10,5.5.5.5,malware,high,Second malware attempt domain evil.com detected
+2024-01-01 09:05,10.0.0.2,45.33.32.156,c2,critical,Same C2 IP 45.33.32.156 contacted again suspicious
+2024-01-01 09:10,192.168.2.15,1.2.3.4,phishing,high,Phishing email link http://steal-password.net clicked
+2024-01-01 09:15,10.0.0.8,185.220.101.5,ransomware,critical,New ransomware variant hash ab12cd34ef56gh78 spreading fast
+2024-01-01 09:20,172.16.0.5,91.108.4.1,ddos,medium,DDoS traffic spike 10Gbps from multiple IPs
+2024-01-01 10:00,192.168.3.1,23.45.67.89,malware,critical,Trojan detected domain malware-hub.ru hash ff00aa11bb22cc33
+2024-01-01 10:05,10.0.1.1,45.33.32.156,c2,high,C2 beacon every 60 seconds to 45.33.32.156
+2024-01-01 10:10,192.168.1.55,8.8.4.4,phishing,low,Suspicious email attachment opened no payload detected
+2024-01-01 10:15,10.0.0.9,185.220.200.1,ransomware,critical,WannaCry variant hash 5f4dcc3b5aa765d61d8327deb882cf99 detected
+2024-01-01 10:20,172.16.1.1,91.108.56.1,ddos,high,UDP flood attack 50000 packets per second
